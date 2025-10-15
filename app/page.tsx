@@ -3,6 +3,7 @@ import { HeroSection } from "@/components/hero-section"
 import { StatsSection } from "@/components/stats-section"
 import { FeaturesSection } from "@/components/features-section"
 import { HowItWorksSection } from "@/components/how-it-works-section"
+import { RoiCalculatorSection } from "@/components/roi-calculator-section"
 import { TestimonialsSection } from "@/components/testimonials-section"
 import { Footer } from "@/components/footer"
 
@@ -14,6 +15,7 @@ export default function Home() {
       <StatsSection />
       <FeaturesSection />
       <HowItWorksSection />
+      <RoiCalculatorSection />
       <TestimonialsSection />
       <Footer />
     </main>
