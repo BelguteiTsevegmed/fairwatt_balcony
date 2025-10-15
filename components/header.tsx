@@ -14,7 +14,7 @@ export function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
             <div className="text-2xl font-bold text-foreground">
-              OTOVO<span className="text-primary">☀</span>
+              FairWatt<span className="text-primary">☀</span>
             </div>
           </Link>
 

@@ -1,9 +1,9 @@
 export function StatsSection() {
   const stats = [
-    { value: "50,000+", label: "Zadowolonych klientów" },
-    { value: "15+", label: "Lat doświadczenia" },
-    { value: "100%", label: "Gwarancja jakości" },
-    { value: "24/7", label: "Wsparcie techniczne" },
+    { value: "Do 800 zł", label: "Oszczędności rocznie" },
+    { value: "Do 300 kg", label: "Redukcji CO2 rocznie" },
+    { value: "30 minut", label: "Czas montażu" },
+    { value: "100%", label: "Zadowolonych klientów" },
   ]
 
   return (
