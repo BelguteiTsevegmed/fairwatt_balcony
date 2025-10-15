@@ -1,10 +1,15 @@
+<<<<<<< HEAD
 import { MapPin, ShoppingCart, Truck, Wrench, Sun } from "lucide-react";
+=======
+import { ShoppingCart, Truck, Wrench, Sun } from "lucide-react"
+>>>>>>> main
 
 export function HowItWorksSection() {
   const steps = [
     {
-      icon: MapPin,
+      icon: ShoppingCart,
       number: "01",
+<<<<<<< HEAD
       title: "Podaj adres",
       description: "Wpisz swój adres i wybierz stronę budynku, na której znajduje się Twój balkon.",
     },
@@ -13,12 +18,27 @@ export function HowItWorksSection() {
       number: "02",
       title: "Wybierz zestaw",
       description: "Wybierz idealny zestaw fotowoltaiczny dla swojego balkonu.",
+=======
+      title: "Wybierz zestaw",
+      description: "Wybierz idealny zestaw fotowoltaiczny dla swojego balkonu.",
+    },
+    {
+      icon: Truck,
+      number: "02",
+      title: "Zamów i odbierz",
+      description: "Szybka i bezpieczna dostawa prosto pod Twoje drzwi.",
+>>>>>>> main
     },
     {
       icon: Truck,
       number: "03",
+<<<<<<< HEAD
       title: "Zamów i odbierz",
       description: "Szybka i bezpieczna dostawa prosto pod Twoje drzwi.",
+=======
+      title: "Zainstaluj samodzielnie",
+      description: "Prosty montaż, który wykonasz samodzielnie w kilkadziesiąt minut.",
+>>>>>>> main
     },
     {
       icon: Sun,
