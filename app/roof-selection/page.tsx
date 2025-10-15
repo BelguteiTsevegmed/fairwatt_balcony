@@ -30,8 +30,8 @@ interface BuildingInsights {
 }
 
 const SELECTION_LOADING_STATES = [
-  { text: "Zapisujemy zaznaczenie dachu" },
-  { text: "Analizujemy powierzchnię" },
+  { text: "Zapisujemy lokalizację balkonu" },
+  { text: "Analizujemy orientację balkonu" },
   { text: "Szacujemy ekspozycję na słońce" },
   { text: "Przygotowujemy wstępny plan instalacji" },
 ];
@@ -222,7 +222,7 @@ export default function RoofSelectionPage() {
           <div className="text-center space-y-4">
             <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight">
               <span className="bg-gradient-to-br from-foreground to-primary bg-clip-text text-transparent">
-                Zaznacz swój dach
+                Zaznacz swój balkon
               </span>
             </h1>
             <p className="text-muted-foreground">
@@ -242,7 +242,7 @@ export default function RoofSelectionPage() {
                   1
                 </span>
                 <span className="whitespace-nowrap">
-                  Przeciągnij znacznik na dom
+                  Przeciągnij znacznik na swój balkon
                 </span>
               </div>
               <div className="inline-flex items-center gap-2 rounded-full border border-border bg-background/80 backdrop-blur px-3 py-1.5 text-xs text-muted-foreground shadow-sm">

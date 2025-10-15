@@ -1,4 +1,4 @@
-import { MapPin, Calculator, Wrench, Sun } from "lucide-react"
+import { MapPin, ShoppingCart, Truck, Wrench, Sun } from "lucide-react";
 
 export function HowItWorksSection() {
   const steps = [
@@ -6,25 +6,25 @@ export function HowItWorksSection() {
       icon: MapPin,
       number: "01",
       title: "Podaj adres",
-      description: "Wpisz swój adres i otrzymaj wstępną wycenę w 10 minut",
+      description: "Wpisz swój adres i wybierz stronę budynku, na której znajduje się Twój balkon.",
     },
     {
-      icon: Calculator,
+      icon: ShoppingCart,
       number: "02",
-      title: "Otrzymaj ofertę",
-      description: "Nasi eksperci przygotują spersonalizowaną ofertę dla Twojego domu",
+      title: "Wybierz zestaw",
+      description: "Wybierz idealny zestaw fotowoltaiczny dla swojego balkonu.",
     },
     {
-      icon: Wrench,
+      icon: Truck,
       number: "03",
-      title: "Instalacja",
-      description: "Profesjonalny montaż przez certyfikowanych instalatorów",
+      title: "Zamów i odbierz",
+      description: "Szybka i bezpieczna dostawa prosto pod Twoje drzwi.",
     },
     {
       icon: Sun,
       number: "04",
-      title: "Ciesz się energią",
-      description: "Zacznij oszczędzać i produkować własną czystą energię",
+      title: "Oszczędzaj na rachunkach",
+      description: "Zacznij produkować własną energię i obniż swoje rachunki za prąd.",
     },
   ]
 

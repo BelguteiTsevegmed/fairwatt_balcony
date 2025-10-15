@@ -1,26 +1,27 @@
-import { Zap, Shield, TrendingDown, Leaf } from "lucide-react"
+import { Zap, Shield, TrendingDown, Leaf, SlidersHorizontal, Smartphone, CloudDrizzle } from "lucide-react";
+
 
 export function FeaturesSection() {
   const features = [
     {
-      icon: Zap,
-      title: "Oszczędzaj na rachunkach",
-      description: "Zmniejsz swoje rachunki za prąd nawet o 90% dzięki energii słonecznej",
+      icon: SlidersHorizontal,
+      title: "Łatwa instalacja",
+      description: "Zainstaluj swój zestaw w kilkadziesiąt minut bez potrzeby wzywania fachowca.",
     },
     {
-      icon: Shield,
-      title: "Gwarancja spokoju",
-      description: "Kompleksowa gwarancja na panele i instalację do 25 lat",
+      icon: Smartphone,
+      title: "Inteligentne zarządzanie",
+      description: "Monitoruj produkcję i zużycie energii w czasie rzeczywistym dzięki aplikacji mobilnej.",
     },
     {
-      icon: TrendingDown,
-      title: "Atrakcyjne finansowanie",
-      description: "Leasing przez 3 miesiące gratis i elastyczne opcje płatności",
+      icon: CloudDrizzle,
+      title: "Odporność na warunki atmosferyczne",
+      description: "Nasze panele są odporne na deszcz, wiatr i śnieg, zapewniając niezawodność przez lata.",
     },
     {
       icon: Leaf,
-      title: "Ekologiczne rozwiązanie",
-      description: "Zmniejsz swój ślad węglowy i zadbaj o środowisko",
+      title: "Niezależność energetyczna",
+      description: "Zacznij produkować własną, czystą energię i uniezależnij się od rosnących cen prądu.",
     },
   ]
 
@@ -29,10 +30,10 @@ export function FeaturesSection() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4 text-balance">
-            Dlaczego warto wybrać Otovo?
+            Dlaczego warto wybrać FairWatt?
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto text-pretty">
-            Jesteśmy liderem w branży fotowoltaiki w Polsce
+            Twoja mała elektrownia słoneczna na balkonie
           </p>
         </div>
 

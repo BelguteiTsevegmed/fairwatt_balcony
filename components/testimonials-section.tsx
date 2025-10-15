@@ -3,22 +3,22 @@ import { Star } from "lucide-react"
 export function TestimonialsSection() {
   const testimonials = [
     {
-      name: "Anna Kowalska",
+      name: "Jan Kowalski",
       location: "Warszawa",
       rating: 5,
-      text: "Świetna obsługa i profesjonalny montaż. Polecam każdemu!",
+      text: "Montaż paneli na balkonie zajął mi mniej niż godzinę. Jestem pod wrażeniem, jak proste to było!",
     },
     {
-      name: "Piotr Nowak",
+      name: "Anna Nowak",
       location: "Kraków",
       rating: 5,
-      text: "Rachunki za prąd spadły o 80%. Najlepsza inwestycja!",
+      text: "Moje rachunki za prąd znacznie się zmniejszyły. To świetna inwestycja, która szybko się zwraca.",
     },
     {
-      name: "Maria Wiśniewska",
+      name: "Piotr Wiśniewski",
       location: "Gdańsk",
       rating: 5,
-      text: "Proces był bardzo prosty, a efekty przeszły moje oczekiwania.",
+      text: "Aplikacja mobilna jest bardzo intuicyjna. Lubię obserwować, ile energii produkują moje panele.",
     },
   ]
 
